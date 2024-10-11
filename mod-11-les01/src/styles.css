@@ -1,0 +1,35 @@
+
+.header {
+    background-image: url(IMG_9711.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+}
+.name {
+    width: 100%;
+    position: sticky;
+    text-align: center;
+    padding: 10px;
+  
+}
+
+
+h1 {
+    color: rgb(255, 85, 7);
+    font-size: 5em;
+    text-shadow: -1px 0 rgb(155, 4, 4), 0 1px rgb(155, 4, 4), 1px 0 rgb(155, 4, 4), 0 -1px rgb(155, 4, 4);
+    letter-spacing: .2rem;
+}
+  
+
+@media only screen and (min-width: 992px) {
+    .header {
+        min-height: 110vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+}
